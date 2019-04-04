@@ -1,0 +1,32 @@
+{
+    "name": "alexgo93/simple-socket-server",
+    "description": "socket server for checking brackets pairs",
+    "type": "project",
+    "keywords": [
+        "socket server",
+        "bracket's balance check"
+    ],
+    "bin": ["bin/socketServer"],
+    "autoload": {
+        "files": [
+            "src/socketServerLogic.php"
+        ]
+    },
+    "require": {
+        "php": "7.2.*",
+        "alexgo93/brackets_balance_check": "^1.0"
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^3.4"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alex Golenko",
+            "email": "alekseimell5644@gmail.com"
+        }
+    ],
+    "scripts": {
+        "phpcs": "phpcs"
+    }
+}
