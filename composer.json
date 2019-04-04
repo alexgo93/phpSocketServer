@@ -4,7 +4,7 @@
     "type": "project",
     "keywords": [
         "socket server",
-        "bracket's balance check"
+        "bracket balance check"
     ],
     "bin": ["bin/socketServer"],
     "autoload": {
