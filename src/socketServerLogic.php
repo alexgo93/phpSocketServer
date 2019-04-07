@@ -20,7 +20,7 @@ function runSocket()
         fwrite($connect, "Write a string of brackets for check it's balance \n");
         $userString = fread($connect, 1024);
         isBalanced($userString) ? fwrite($connect, "Balanced \n") : fwrite($connect, "Not balanced \n");
-        if(isset($_POST['string'])) {
+        if (isset($_POST['string'])) {
             isBalanced($_POST['string']) ? fwrite($connect, "Balanced \n") : fwrite($connect, "Not balanced \n");
         }
 

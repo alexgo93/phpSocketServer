@@ -9,3 +9,7 @@ composer create-project alexgo93/simple-socket-server
 # Description
 
 Socket server for checking brackets pairs balance.
+
+# Asciinema
+
+[![asciicast](https://asciinema.org/a/AxuIZCQY0kUbz1FU9zWiXNmYw.svg)](https://asciinema.org/a/AxuIZCQY0kUbz1FU9zWiXNmYw)
